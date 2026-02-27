@@ -18,7 +18,7 @@ int total_sum(int rows, int cols)
 
     for (r = 1; r <= rows; r++)
     {
-        total += row_sum(r, cols);  // OK, row_sum est déjà définie
+        total += row_sum(r, cols); /* row_sum est déjà définie */
     }
 
     return total;
